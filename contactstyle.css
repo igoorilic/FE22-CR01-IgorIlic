@@ -1,0 +1,16 @@
+body {
+    width: 1400px;
+    height: 700px;
+    background-image: url("image/coding.jpeg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+table {
+    text-align: center; 
+}

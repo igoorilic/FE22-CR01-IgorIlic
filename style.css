@@ -1,0 +1,292 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+header {
+    width: 1444px;
+    height: 800px;
+    background-image: url("image/keyboard.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -400px 0 0 -10px;  
+}
+
+nav {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    margin: 0%;
+    padding: 0px;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-top: 10px;
+    float:left;
+    text-align: center;
+}
+
+#search {
+    position: absolute;
+    padding-top: 5px;
+    padding-right: 40%;
+    padding-left: 2%;
+    width: 15%;
+}
+
+#search input {
+    height: 20px;
+    width: 970px;
+    margin-left: 50px;
+}
+
+.buttons {
+    position: absolute;
+    padding-left: 1240px;
+}
+
+#button1 {
+    border: none;
+    position: absolute;
+    background-color: RGB(140,24,27);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+}
+
+#button2 {
+    border: none;
+    position: absolute;
+    margin-left: 88px;
+    background-color: RGB(140,24,27);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+
+}
+
+.backgroundtext {
+    color: white;
+    position: absolute;
+    top: 220px;
+    left: 290px;
+}
+
+#devices {
+    margin-top: -10px;
+    height: 52px;
+}
+
+#codefactory {
+    margin-bottom: 10px;
+
+    font-size: 37.5px;
+}
+
+#introduce {
+    margin-top: 2px;
+    margin-bottom: 14px;
+    font-size: 18px;
+}
+
+.courseTechnologies {
+    margin-left: -6px;
+    position: absolute;
+    width: 100%;
+    display: block;
+    background-color: RGB(26,24,24);
+    padding-bottom: 330px;
+}
+
+#headerContent {
+    font-size: 2.35em;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 3px RGB(112,112,112);
+}
+
+#frontEnd {
+    color: white;
+    border-radius: 14px;
+    width: 280px;
+    height: 150px;
+    text-align: center;
+    position: absolute;
+    padding: 40px;
+    border: solid black;
+    background-color: RGB(35,90,141);
+    left: 4cm;
+}
+
+#backEnd {
+    color: white;
+    border-radius: 14px;
+    width: 280px;
+    height: 150px;
+    text-align: center;
+    position: absolute;
+    padding: 40px;
+    margin-left: 38%;
+    margin-right: 200px;
+    border: solid black;
+    background-color: RGB(35,90,141);
+}
+
+#projects {
+    color: white;
+    border-radius: 14px;
+    width: 280px;
+    height: 150px;
+    position: absolute;
+    padding: 40px;
+    margin-left: 65.5%;
+    margin-right: 2%;
+    border: solid black;
+    text-align: center;
+    background-color: RGB(35,90,141);
+    right: 2,5cm;
+}
+
+.text {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+#chead1 {
+    margin-top: -40px;
+    margin-bottom: -10px;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+#chead2 {
+    margin-top: -40px;
+    margin-bottom: -10px;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+#chead3 {
+    margin-top: -40px;
+    margin-bottom: -10px;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+#footer1 img {
+    padding-top: 20px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+
+}
+#footer1 {
+    margin-left: -6px;
+    text-align: center;
+    position: absolute;
+    color: white;
+    background-color: black;
+    width: 100%;
+    top: 897px;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#button {
+    background-color: white;
+    padding: 10px 7px 10px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#cssbutton1 {
+    border: none;
+    background-color: white;
+    padding: 10px 7px 10px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 1.5%;
+}
+
+#cssbutton2 {
+    border: none;
+    background-color: white;
+    padding: 10px 7px 10px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 8%;
+}
+
+#cssbutton3 {
+    border: none;
+    background-color: white;
+    padding: 10px 7px 10px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15%;
+}
+
+#insideText1 p {
+    margin-top: -15px;
+}
+
+
+#topWord1 {
+    padding-top: 20px;
+}
+
+#insideText2 p {
+    margin-top: -15px;
+}
+
+
+#topWord2 {
+    padding-top: 20px;
+}
+
+#insideText3 p {
+    margin-top: -15px;
+}
+
+
+#topWord3 {
+    padding-top: 20px;
+}
+
+#header1 img {
+    padding-top: 5px;
+    padding-left: 8px;
+    width: 160px;
+}
